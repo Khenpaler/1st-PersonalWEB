@@ -78,10 +78,11 @@ body {
     background: rgba(77, 205, 236, 0.4);
 }
 
-.menu nav .logo {
+.logo {
     width: 60px;
     border-radius: 30%;
-    margin-left: 40px;
+    margin-left: 30px;
+    position: absolute;
 }
 
 .menu nav ul {
@@ -93,11 +94,13 @@ body {
     display: inline-block;
     margin-right: 30px;
     margin-left: 30px;
+    position: relative;
 }
 
 .menu nav ul li a {
     display: inline-block;
     padding: 15px 30px 15px 55px;
+    cursor: pointer;
     color: #ffffff;
     font-size: 20px;
 }

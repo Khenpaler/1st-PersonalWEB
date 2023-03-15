@@ -6,14 +6,13 @@ html {
 
 * {
     text-decoration: none;
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*-------------BODY---------------------*/
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Century Gothic', sans-serif;
 }
 
 
@@ -33,7 +32,6 @@ body {
     display: inline-block;
     border-radius: 10px;
     text-decoration: none;
-    font-family: 'Century Gothic', sans-serif;
     letter-spacing: .2em;
     color: #D9D9D9;
     border: 1px solid #fff;
@@ -62,7 +60,6 @@ body {
     font-weight: 100;
     color: white;
     text-align: center;
-    font-family: 'Century Gothic', sans-serif;
     top: 10px;
 }
 
@@ -117,18 +114,15 @@ body {
 }
 
 
-
-
-/*-------------BOX---------------------*/
-.box {
+/*-------------BOX FOR INDEX---------------------*/
+.boxforindex {
     width: 500px;
     background: rgba(0, 0, 0, 0.4);
     padding: 20px;
     text-align: center;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 7%;
     color: white;
-    font-family: 'Century Gothic', sans-serif;
 }
 
 .box-img {
@@ -137,6 +131,29 @@ body {
     height: 200px;
     border-color: #00f7ff;
     border-style: solid;
+}
+
+.boxforindex h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.boxforindex h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+/*-------------BOX---------------------*/
+.box {
+    width: 900px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+    color: white;
 }
 
 .box h1 {
@@ -155,7 +172,8 @@ body {
 
 .box p {
     text-align: justify;
-    line-height: 1.5;
+    letter-spacing: .2em;
+    line-height: 2;
 }
 
 /*---------------------SOCIAL MEDIA LINKS----------------*/
@@ -227,9 +245,8 @@ ul {
     padding: 20px;
     text-align: center;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 7%;
     color: white;
-    font-family: 'Century Gothic', sans-serif;
 }
 
 .box2 h2 {

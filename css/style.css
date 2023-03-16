@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 
-
+/*-------------FONT FOR ALL---------------------*/
 * {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -44,11 +44,11 @@ body {
   
 }
 
-.button:hover{
-    border: 1px solid #ffffff;
-    background: rgba(77, 205, 236, 0.4);
-    transition: 1s;
-}
+    .button:hover{
+        border: 1px solid #ffffff;
+        background: rgba(77, 205, 236, 0.4);
+        transition: 1s;
+    }
 
 
 /*---------------------about----------------*/
@@ -64,17 +64,6 @@ body {
 }
 
 /*-------------MENU---------------------*/
-.menu nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 100;
-    display: flex;
-    align-items: right;
-    justify-content: space-between;
-    background: rgba(77, 205, 236, 0.4);
-}
 
 .logo {
     width: 60px;
@@ -83,34 +72,52 @@ body {
     position: absolute;
 }
 
-.menu nav ul {
-    margin: auto;
-    max-width: 100%;
-}
 
-.menu nav ul li {
-    display: inline-block;
-    flex: 1;
-    position: relative;
-}
+    .menu nav {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 100;
+        display: flex;
+        align-items: right;
+        justify-content: space-between;
+        background: rgba(77, 205, 236, 0.4);
+    }
 
-.menu nav ul li a {
-    display: inline-block;
-    padding: 15px 30px 15px 55px;
-    cursor: pointer;
-    color: #ffffff;
-    font-size: 20px;
-}
 
-.menu nav ul li a:hover {
-    font-weight: 100;
-    color: #222222;
-}
+        .menu nav ul {
+            margin: auto;
+            max-width: 100%;
+        }
 
-.menu nav ul li a.current {
-    color: #222222;
-    background-color: #ffffff;
-}
+
+            .menu nav ul li {
+                display: inline-block;
+                flex: 1;
+                position: relative;
+            }
+
+
+                .menu nav ul li a {
+                    display: inline-block;
+                    padding: 15px 30px 15px 55px;
+                    cursor: pointer;
+                    color: #ffffff;
+                    font-size: 20px;
+                }
+
+
+                    .menu nav ul li a:hover {
+                        font-weight: 100;
+                        color: #222222;
+                    }
+
+
+                        .menu nav ul li a.current {
+                            color: #222222;
+                            background-color: #ffffff;
+                        }
 
 
 /*-------------BOX FOR INDEX---------------------*/
@@ -124,25 +131,29 @@ body {
     color: white;
 }
 
-.box-img {
-    border-radius: 50px;
-    width: 200px;
-    height: 200px;
-    border-color: #00f7ff;
-    border-style: solid;
-}
 
-.boxforindex h1 {
-    font-size: 30px;
-    letter-spacing: 4px;
-    font-weight: 100;
-}
+    .box-img {
+        border-radius: 50px;
+        width: 200px;
+        height: 200px;
+        border-color: #00f7ff;
+        border-style: solid;
+    }
 
-.boxforindex h5 {
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 100;
-}
+
+        .boxforindex h1 {
+            font-size: 30px;
+            letter-spacing: 4px;
+            font-weight: 100;
+        }
+
+
+            .boxforindex h5 {
+                font-size: 20px;
+                letter-spacing: 3px;
+                font-weight: 100;
+            }
+
 
 /*-------------BOX---------------------*/
 .box {
@@ -155,17 +166,19 @@ body {
     color: white;
 }
 
-.box h1 {
-    font-size: 30px;
-    letter-spacing: 4px;
-    font-weight: 100;
-}
 
-.box h5 {
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 100;
-}
+    .box h1 {
+        font-size: 30px;
+        letter-spacing: 4px;
+        font-weight: 100;
+    }
+
+
+        .box h5 {
+            font-size: 20px;
+            letter-spacing: 3px;
+            font-weight: 100;
+        }
 
 /*---------------------PARAGRAPH----------------*/
 
@@ -182,22 +195,25 @@ ul {
     padding: 0;
 }
 
-.box li {
-    display: inline-block;
-    margin: 6px;
-    list-style: none;
-}
 
-.box li a {
-    color: white;
-    text-decoration: none;
-    font-size: 60px;
-    transition: all ease-in-out 250ms;
-}
+    .box li {
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+    }
 
-.box li a:hover {
-    color: #b9b9b9;
-}
+
+        .box li a {
+            color: white;
+            text-decoration: none;
+            font-size: 60px;
+            transition: all ease-in-out 250ms;
+        }
+
+
+        .box li a:hover {
+            color: #b9b9b9;
+        }
 
 /*---------------------FONT FOR WEBSITE----------------*/
 
@@ -208,11 +224,12 @@ ul {
     color: #00f7ff;
 }
 
-.font h2 {
-    font-size: 20px;
-    letter-spacing: 4px;
-    font-weight: normal;
-}
+
+    .font h2 {
+        font-size: 20px;
+        letter-spacing: 4px;
+        font-weight: normal;
+    }
 
 
 /*---------------------SKILLS----------------*/
@@ -224,15 +241,17 @@ ul {
     border-collapse: collapse;
 }
 
-.box table td, .box table th {
-    vertical-align: top;
-    text-align: left;
-    padding: 10px 40px;
-}
 
-.box table tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.4);
-}
+    .box table td, .box table th {
+        vertical-align: top;
+        text-align: left;
+        padding: 10px 40px;
+    }
+
+
+        .box table tr:nth-child(even) {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
 
 
 
@@ -248,33 +267,35 @@ ul {
     color: white;
 }
 
-.box2 h2 {
-    font-size: 30px;
-    letter-spacing: 4px;
-    font-weight: 100;
-}
 
-.box2 table {
-    width: 100%;
-    margin: auto;
-    vertical-align: top;
-    border-collapse: collapse;
-}
+    .box2 h2 {
+        font-size: 30px;
+        letter-spacing: 4px;
+        font-weight: 100;
+    }
 
-.box2 table td, .box2 table th {
-    vertical-align: top;
-    text-align: left;
-    padding: 10px 40px;
-}
 
-.box2 table tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.4);
-}
+        .box2 table {
+            width: 100%;
+            margin: auto;
+            vertical-align: top;
+            border-collapse: collapse;
+        }
+
+
+            .box2 table td, .box2 table th {
+                vertical-align: top;
+                text-align: left;
+                padding: 10px 40px;
+            }
+
+
+        .box2 table tr:nth-child(even) {
+            background-color: rgba(0, 0, 0, 0.4);
+        }
 
 
 /*-------------------CONTACT INFO----------------------------*/
-
-
 .info {
     margin: auto; /*This is to center the element*/
     padding-top: 10px;
@@ -284,8 +305,9 @@ ul {
     border-bottom: 1px dotted wheat;
 }
 
-.info li {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-}
+
+    .info li {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }

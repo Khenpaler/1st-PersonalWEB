@@ -26,29 +26,27 @@
     <body>
 
         <!--for navagation-->
-        <div class="menu">
-            <nav>
-                <!--to make logo-->
-                <img src="images/K.png" alt="K logo" class="logo">
-                <ul>
-                    <li>
-                        <a href ="index.html" >Home</a>
-                    </li>
-                    <li>
-                        <a href ="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href ="skills.html">Experience</a>
-                    </li>
-                    <li>
-                        <a href ="education.html">Education</a>
-                    </li>
-                    <li>
-                        <b><a href ="contact.html" class="current">Contact</a></b>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navmenu">
+            <!--to make logo-->
+            <img src="images/K.png" alt="K logo" class="logo">
+            <ul>
+                <li>
+                    <b><a href ="index.html">Home</a></b>
+                </li>
+                <li>
+                    <a href ="about.html" >About</a>
+                </li>
+                <li>
+                    <a href ="skills.html">Experience</a>
+                </li>
+                <li>
+                    <a href ="education.html">Education</a>
+                </li>
+                <li>
+                    <a href ="contact.html" class="current">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
         <!--for background video-->
         <div>
@@ -85,6 +83,19 @@
                 <li><a href="https://github.com/Khenpaler" target="_blank"><i class="fa-brands fa-github"></i></a></li>
             </ul>
 
+        </div>
+
+        <div class="container">
+            <section id="contact">
+                <h1 class="headings">Send me a Message</h1>
+                <form action="" class="form">
+                    <input type="text" name="name" class="input" placeholder="Enter Your Name">
+                    <input type="email" name="email" class="input" placeholder="Enter Your Email">
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    <p><input type="checkbox" name="updateme" value="yes"/> Send me a copy of my responses.</p>
+                    <input type="submit" value="SEND" id="send">
+                </form>
+            </section>
         </div>
 
     </body>

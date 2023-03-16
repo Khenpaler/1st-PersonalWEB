@@ -21,6 +21,18 @@ body {
     z-index: -1;
 }
 
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
 
 /*-------------MENU---------------------*/
 .logo {
@@ -87,7 +99,7 @@ body {
     justify-content: center;
     margin: auto;
     margin-top: 7%;
-    color: white;
+    
 }
 
 
@@ -101,33 +113,31 @@ body {
 
 
 .boxforindex h1 {
-    font-size: 30px;
-    letter-spacing: 4px;
-    font-weight: 100;
-}
-
-
-.boxforindex h5 {
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 100;
-}
-
-
-/*---------------------FONT FOR HOMESCREEN----------------*/
-.font h1 {
     font-size: 40px;
     letter-spacing: 4px;
     font-weight: bold;
     color: #00f7ff;
+    transition: 0.5s;
 }
 
+.boxforindex h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: #fff;
+    transition: 0.5s;
+}
 
-    .font h2 {
-        font-size: 20px;
-        letter-spacing: 4px;
-        font-weight: normal;
-    }
+.boxforindex h1:hover {
+    -webkit-text-stroke: 0px #00f7ff;
+    color: transparent;
+}
+
+.boxforindex h2:hover {
+    -webkit-text-stroke: 0px #fff;
+    color: transparent;
+}
+
 
 
 /*-------------BOX FOR ABOUT---------------------*/

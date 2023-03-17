@@ -35,21 +35,21 @@ body {
 }
 
 /*-------------MENU---------------------*/
-.logo {
-    width: 60px;
-    border-radius: 30%;
-    margin-left: 50px;
-    margin-top: 10px;
-    left: 0;
-    top: 0;
-    position: absolute;
+.navmenu {
+    width: 80%;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 2px solid #fff;
 }
 
-
-.navmenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.navmenu .logo {
+    width: 60px;
+    border-radius: 30%;
+    z-index: 2;
 }
 
 
@@ -57,34 +57,40 @@ body {
     display: flex;
     list-style: none;
     margin: 20px 0px;
+    z-index: 2;
 }
 
 
 .navmenu ul li {
     font-size: 1.1rem;
     font-weight: bold;
-
 }
 
 
 .navmenu ul li a {
     color: white;
     padding: 10px 50px;
+    border-radius: 5px;
     transition: all .5s ease;
     cursor: pointer;
+    text-transform: capitalize;
+    transition: all .5s;
+    text-align: center;
+    align-items: center;
 }
 
 
 .navmenu ul li a:hover {
-    color: black;
+    color: #222222;
     box-shadow: 0 0 10x white;
     cursor: pointer;
 }
 
 
 .navmenu ul li a.current {
+    opacity: 1;
     cursor: pointer;
-    color: #222222;
+    color: white;
     background-color: rgba(77, 205, 236, 0.4)
 }
 
@@ -119,6 +125,7 @@ body {
     color: #00f7ff;
     transition: 0.5s;
 }
+
 
 .boxforindex h2 {
     font-size: 20px;

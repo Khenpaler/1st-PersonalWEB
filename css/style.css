@@ -133,16 +133,21 @@ body {
     letter-spacing: 3px;
     font-weight: 100;
     color: #fff;
-    transition: 0.5s;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
+
+.color {
+    font-weight: bold;
+    color: #00f7ff;
 }
 
 .boxforindex h1:hover {
     -webkit-text-stroke: 0px #00f7ff;
-    color: transparent;
-}
-
-.boxforindex h2:hover {
-    -webkit-text-stroke: 0px #fff;
     color: transparent;
 }
 

@@ -1,6 +1,6 @@
 # 1st-PersonalWEB
 
-:red_circle: NOT YET DONE!
+:red_circle: DONE!
 
 :pushpin: UPDATED CURRENT WEBPAGE!
 
